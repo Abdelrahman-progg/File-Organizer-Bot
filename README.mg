@@ -1,19 +1,19 @@
-File Organizer Bot 🗂️
+# File Organizer Bot 🗂️
 A Python script that automatically organizes files into categorized folders based on their extensions.
 
-Features
-Automatic Categorization: Sorts files into appropriate folders (Images, Documents, etc.)
+# Features
+- **Automatic Categorization**: Sorts files into appropriate folders (Images, Documents, etc.)
 
-Directory Creation: Automatically creates the necessary folders for organization
+- **Directory Creation**: Automatically creates the necessary folders for organization
 
-Comprehensive Support: Handles 100+ file extensions across various categories
+- **Comprehensive Support**: Handles 100+ file extensions across various categories
 
-Simple Interface: Easy-to-use command line tool
+- **Simple Interface**: Easy-to-use command line tool
 
-Installation
-Clone the repository:
+## Installation
+1.Clone the repository:
 
-bash
+```bash
 Copy code
 git clone https://github.com/Abdelrahman-progg/File-Organizer-Bot.git
 cd File-Organizer-Bot
@@ -36,21 +36,21 @@ Copy code
 Enter the path to the directory you want to organize:
 C:\Users\YourName\Downloads
 Supported File Types
-Category	Example Extensions
-Images	.jpg, .png, .gif, .webp
-Videos	.mp4, .mov, .avi, .mkv
-Audio	.mp3, .wav, .flac, .aac
-Documents	.pdf, .docx, .xlsx, .pptx
-Archives	.zip, .rar, .7z, .tar
-Code	.py, .js, .html, .css
-Applications	.exe, .msi, .dmg, .apk
-Fonts	.ttf, .otf, .woff
-System	.dll, .sys, .ini
-Others	Any unclassified extensions
-Project Structure
+**Category	    Example Extensions**
+- Images	      .jpg, .png, .gif, .webp
+- Videos	      .mp4, .mov, .avi, .mkv
+- Audio	        .mp3, .wav, .flac, .aac
+- Documents	    .pdf, .docx, .xlsx, .pptx
+- Archives	    .zip, .rar, .7z, .tar
+- Code	        .py, .js, .html, .css
+- Applications	.exe, .msi, .dmg, .apk
+- Fonts	        .ttf, .otf, .woff
+- System	      .dll, .sys, .ini
+- Others	      Any unclassified extensions
+- Project Structure
 bash
 Copy code
-File-Organizer-Bot/
+## File-Organizer-Bot/
 ├── Main.py              # Main application entry point
 ├── Organize.py          # Core organization logic
 ├── test_Organize.py     # Unit tests
@@ -80,3 +80,4 @@ file_name: Name of the file to move
 
 name: Destination folder name
 
+```
